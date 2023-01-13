@@ -1,44 +1,20 @@
 {
-  "_from": "yapi-plugin-qsso@^1.1.0",
-  "_id": "yapi-plugin-qsso@1.1.1",
-  "_inBundle": false,
-  "_integrity": "sha512-on4DGqEoRKoZQ8hUBzYYk3wJqd9g4po8rv22UKcq96ogxhWYohtdkzMV2A9uUcbtatLdITG96oP5brVU9l2CIg==",
-  "_location": "/yapi-plugin-qsso",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "yapi-plugin-qsso@^1.1.0",
-    "name": "yapi-plugin-qsso",
-    "escapedName": "yapi-plugin-qsso",
-    "rawSpec": "^1.1.0",
-    "saveSpec": null,
-    "fetchSpec": "^1.1.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmmirror.com/yapi-plugin-qsso/-/yapi-plugin-qsso-1.1.1.tgz",
-  "_shasum": "74323fa24c7181c5e8528b7c87067548f1f0a48a",
-  "_spec": "yapi-plugin-qsso@^1.1.0",
-  "_where": "E:\\htdocs\\yapi\\vendors",
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/YMFE/yapi-plugin-qsso/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "第三方sso登录插件，配置方法如下：",
-  "homepage": "https://github.com/YMFE/yapi-plugin-qsso#readme",
-  "license": "ISC",
+  "name": "yapi-plugin-qcas",
+  "version": "1.0.0",
+  "description": "yapi 三方登录",
   "main": "index.js",
-  "name": "yapi-plugin-qsso",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YMFE/yapi-plugin-qsso.git"
-  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "version": "1.1.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yluchao/yapi-plugin-cas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yluchao/yapi-plugin-cas/issues"
+  },
+  "homepage": "https://github.com/yluchao/yapi-plugin-cas#readme"
 }
